@@ -6,6 +6,7 @@ import org.junit.Test;
 
 public class SomeClassTest {
     private SomeClass someClass;
+
     @Before
     public void setUp() throws Exception {
         someClass = new SomeClass();
@@ -13,6 +14,6 @@ public class SomeClassTest {
 
     @Test
     public void testSomeMethod() throws Exception {
-         Assert.assertFalse(!someClass.someMethod());
+        Assert.assertFalse(!someClass.someMethod());
     }
 }
