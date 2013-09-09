@@ -1,7 +1,7 @@
 package com.epam.mypckg;
 
 public class SomeClass {
-    public boolean someMethod() {
+    public boolean getFalse() {
         return false;
     }
 }
