@@ -16,4 +16,9 @@ public class SomeClassTest {
     public void testFalseMethod() throws Exception {
         Assert.assertFalse(!someClass.getFalse());
     }
+
+    @Test
+    public void testTrueMethod() throws Exception {
+        Assert.assertTrue(!someClass.getFalse());
+    }
 }
